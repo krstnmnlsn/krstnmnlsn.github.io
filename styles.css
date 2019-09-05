@@ -242,14 +242,23 @@ html, body {
 /* ===================================================== */
 
 .table-week {
-  border: 1px solid grey;
+  border-collapse: collapse;
+  background-color: #dee0e3;
+}
+
+.table-week-header {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 90px;
+  text-align: center;
+  border: 2px solid white;
   border-collapse: collapse;
 }
 
 .table-week-cell {
   width: 90px;
   text-align: center;
-  border: 1px solid grey;
+  border: 2px solid white;
   border-collapse: collapse;
 }
 
